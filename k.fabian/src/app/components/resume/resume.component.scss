@@ -1,0 +1,68 @@
+@import "variables";
+
+.wrapper {
+    padding:10em 0 5em 0;
+    background-color:$grey;
+}
+.canvas {
+    position: relative;
+    width: 70%;
+    height: 29.7cm;
+    padding: 0.8cm;
+    margin: 1cm auto;
+    margin-top:0;
+    border: 1px #D3D3D3 solid;
+    border-radius: 5px;
+    background: $white;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+
+    
+    h4.title {
+        color:$primary;
+        text-transform: uppercase;
+    }
+
+    .canvas-header {
+        margin-top:-115px;
+        text-align: center;
+        .avatar {
+            border-radius: 50%;
+            width:175px;
+            height:175px;
+            border:6px solid $grey;
+        }
+        .greeting {
+            text-transform: uppercase;
+            h2 {
+                font-weight: 1000;
+                margin-top:0.9em;
+                font-size: 2em;
+            }
+            h3 {
+                font-size: 1.5em;
+                font-weight: 700;
+                letter-spacing: -1px;
+                
+
+                .name {
+                    color:$primary;
+                }
+                .age {
+                    color:$grey;
+                }
+            }
+        
+        }
+    }
+
+    .canvas-body {
+        padding:15px;
+        .divider {
+            // display:inline-block;
+            // width:100%;
+            border-top:1px solid rgba(50, 50, 50, 0.2);
+        }
+    }
+
+    
+}
